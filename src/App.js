@@ -9,7 +9,10 @@ import { TaskItem } from "./Components/TaskItem";
 
 export default function App() {
   const [taskList, setTaskList] = useState([
-    { name: "helloTask", completed: false }
+    { name: "helloTask", completed: false },
+    { name: "Type new task in input", completed: false },
+    { name: "Check when completed...", completed: false },
+    { name: "like this...", completed: true }
   ]);
   const [input, setInput] = useState("");
 
